@@ -70,6 +70,7 @@
     }
     #responsive-nv-br{
         display: block;
+        z-index:3
     }
     .menu{
         display: flex;
@@ -91,6 +92,7 @@
     #responsive-nv-br{
         display: block;
         top: 18vw;
+        z-index: 3
     }
     
     #responsive-nv-br > ul > li{
