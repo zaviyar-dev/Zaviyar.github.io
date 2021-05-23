@@ -48,7 +48,7 @@ html{
     color: #777777;
     font-size: 1.5vw;
     padding: 0.2vw 0.3vw;
-    transition: all 1.5s ease;
+    transition: all 0.5s ease;
     border-radius: 0.3vw;
 }
 .nav-bar > ul > li :hover{
@@ -67,6 +67,7 @@ html{
     transition: all 1.5s ease;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    z-index: 3;
 }
 #responsive-nv-br > ul{
     display: flex;
@@ -103,7 +104,7 @@ html{
     display: grid;
     grid-template-columns: repeat(2,auto);
     grid-template-rows: repeat(2,auto);
-    z-index: -1;
+    /* z-index: -1; */
 }
 .home-text{
     /* border: 2px solid blue; */
@@ -121,17 +122,17 @@ html{
 }
 .home-text-heading > h1{
     font-size: 4vw;
-    z-index: -1;
+    /* z-index: -1; */
 }
 .home-text-heading > h1:nth-child(2){
     color: #696969;
     padding: 1vw 0;
-    z-index: -1;
+    /* z-index: -1; */
 }
 .home-text-btn{
     margin-left: 9vw;
     margin-top: 2vw;
-    z-index: -1;
+    /* z-index: -1; */
     
 }
 .home-text-btn > a{
@@ -141,8 +142,8 @@ html{
     padding: 0.6vw 2vw;
     border-radius: 13px;
     cursor: pointer;
-    transition: all 0.5s ease;
-    z-index: -1;
+    transition: all 0.3s ease;
+    /* z-index: -1; */
 }
 .home-text-btn > a:hover{
     padding: 1vw 2.4vw;
@@ -210,6 +211,7 @@ html{
     /* border: 2px solid black; */
     margin-top: 3vw;
     height: 100%;
+    z-index: -1;
 }
 #skills-container > h1{
     font-size: 4.5vw;
@@ -288,6 +290,7 @@ html{
     /* border: 2px solid red; */
     margin-top: 0vw;
     height: 55vw;
+    z-index: -1;
 }
 #work-container > h1{
     font-size: 4.5vw;
@@ -337,15 +340,18 @@ html{
 #contact-container{
     /* border: 2px solid black; */
     margin-top: 5vw;
+    z-index: -1;
     
 }
 #contact-container > h1{
     font-size: 4vw;
     text-align: center;
     color: #696969;
+    /* z-index: -1; */
 }
 form{
     margin-top: 5vw;
+    /* z-index: -1; */
 }
 .contact-box{
     display: flex;
@@ -384,7 +390,7 @@ form{
     border: none;
     border-radius: 0.5vw;
     cursor: pointer;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 #submit:hover{
     padding: 1vw;
