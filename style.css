@@ -322,14 +322,14 @@ html{
     border-radius: 0.5vw;
     margin-top: 0.4vw;
 }
-.work-img > a> img:hover{
+/* .work-img > a> img:hover{
     height: 21vw;
     width: 29.2vw;
     border-radius: 0.5vw;
     margin-top: 0.4vw;
     transform: scale(1.05);
     transition: all 0.7s ease;
-}
+} */
 
 .even {
     height: 21vw !important;
