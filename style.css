@@ -392,9 +392,9 @@ form{
     cursor: pointer;
     transition: all 0.5s ease;
 }
-#submit:hover{
+/* #submit:hover{
     padding: 1vw;
-}
+} */
 #footerBar{
     display: flex;
     align-items: center;
