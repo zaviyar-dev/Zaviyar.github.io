@@ -10,6 +10,14 @@ function show() {
         menu_logo.src = 'assets//menu-regular-24.png'
     }
 }
+
+//for Loader
+let load = document.getElementById('pre-loader')
+window.addEventListener('load', ()=>{
+    load.style.display = 'none'
+})
+
+// Scroll Reveal
 const sr = ScrollReveal({})
 
 sr.reveal('h1', {
